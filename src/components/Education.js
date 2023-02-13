@@ -24,13 +24,14 @@ const Education = () => {
                         <h2>Certificates</h2>
                         <div className='edu-container'>
                             <ul>
-                                <li>The Frontend Developer Career path, <strong>Scrimba - 2020.</strong></li>
-                                <li>The React Bootcamp, <strong>Scrimba - 2020.</strong></li>
-                                <li>The Responsive Web Design Bootcamp, <strong>Scrimba - 2021.</strong></li>
-                                <li>The UI Design Bootcamp, <strong>Scrimba - 2021.</strong></li>
-                                <li>Responsive Web Design, <strong>FreeCodeCamp - 2022.</strong></li>
-                                <li>javaScript Algorithms and Data Structures, <strong>FreeCodeCamp - 2022.</strong></li>
-                                <li>Full-stack Nano Degree: <strong>Udacity-2022</strong></li>
+                                <li>Full-Stack Web Development with React, <i>The Hong Kong University of Science and Technology - June 2020</i></li>
+                                <li>Front-End Web UI Frameworks and Tools Bootstrap 4, <i>The Hong Kong University of Science and Technology - Nov 2021</i></li>
+                                <li>Matrix Algebra for Engineers, <i>The Hong Kong University of Science and Technology - Feb 2021</i></li>
+                                <li>HTML, CSS, and Javascript for Web Developers, <i>The Johns Hopkins University - Nov 2021</i> </li>
+                                <li>Marketing in a Digital World, <i>University of Illinois at Urbana-Champaign - Feb 2021</i></li>
+                                <li>Java Programming and Software Engineering Fundamentals, <i>Duke University - Nov 2021</i></li>
+                                <li>Back-end Web Development Bootcamp, <i>DevTown organization - September 2022</i></li>
+                                
                             </ul>
                         </div>
                    </div>
