@@ -53,7 +53,7 @@ const myProjects = [
         "It is a simple application named Movies App, built with Ract.js using TMDb API that will helps you to find your favourate  latest movies, and some information about it like date of releasing and so on",
         technology: "ReactJS, javaScript, Api, CSS",
       source: "https://github.com/Mwambuka/react-movie-app",
-     // demoLink: "https://codewithbilal.github.io/react-movie-search-app/",
+      demoLink: "https://codewithbilal.github.io/react-movie-search-app/",
     },
     {
       id:"07",

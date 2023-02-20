@@ -20,8 +20,8 @@ const Projects = () => {
                                 <h3>Technology :</h3> <span>{data.technology}</span>
                             </div>
                             <div className='links'>
-                                <a href={data.source}>GitHub</a>
-                                <a href={data.demoLink}>Live</a>
+                                <a href={data.source} target="_blank">GitHub</a>
+                                <a href={data.demoLink} target="_blank">Live</a>
                             </div>
                         </div>
                     )
