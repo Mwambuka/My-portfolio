@@ -6,7 +6,7 @@ const myProjects = [
         description:
           "Implemented the data models to power the API endpoints for the website by connecting to a PostgresSQL database for storing, querying, and creating information about artists and venues on the website.",
         technology: "Postgres, Python, Flask, javaScript, SQLalchemy, ReactJs",
-        source: "https://github.com/CodeWithBilal/Fyyur-Project"
+        source: "https://github.com/Mwambuka/data-models"
       },
       {
         id:"02",
@@ -15,7 +15,7 @@ const myProjects = [
         description:
           "Implemented CRUD operation where employees can have the ability to add, delete, Search, display the details of any question, and play quiz games, randomizing either all questions or specific",
         technology: "Postgres, Python, Flask, javaScript, SQLalchemy",
-        source: "https://github.com/CodeWithBilal/trivia-api-app"
+        source: "https://github.com/Mwambuka/trivia-api-app"
       },
       {
         id:"03",
@@ -24,7 +24,7 @@ const myProjects = [
         description:
           "Created a Full-stack drink menu application that can allow users only to get all the drink coffee that is available, while the manager can add, edit, and delete the drink coffee. Implemented using AuthO to give them permission.",
         technology: "Postgres, Python, Flask, javaScript, SQLalchemy, Angular, AuthO",
-        source: "https://github.com/CodeWithBilal/coffee-shop-udacity"
+        source: "https://github.com/Mwambuka/coffee-shop-app"
       },
       {
         id:"04",
@@ -33,7 +33,7 @@ const myProjects = [
         description:
           "Deploy a Flask API App to a Kubernetes cluster using Docker, AWS EKS, CodePipeline, and CodeBuild.",
         technology: "Docker, Kubernets, AWS, EKS, CodePipeline, CodeBuild, Postgres, Python, Flask, javaScript, SQLalchemy",
-        source: "https://github.com/CodeWithBilal/cd0157-Server-Deployment-and-Containerization",
+        source: "https://github.com/Mwambuka/deploying-flask",
       },
     {
       id:"05",
@@ -42,7 +42,7 @@ const myProjects = [
       description:
         " A simple Bear App built with JavaScript using Punk API, It also show you if the Beer is available or not, I style it using normal styling though it looks like simple but amazing when going through it",
         technology: "javaScript, Api, CSS, HTML5 ",
-      source: "https://github.com/CodeWithBilal/punk-beer-app",
+      source: "https://github.com/Mwambuka/beer-application",
       demoLink: "https://punkbeerapp.netlify.app/",
     },
     {
@@ -52,8 +52,8 @@ const myProjects = [
       description:
         "It is a simple application named Movies App, built with Ract.js using TMDb API that will helps you to find your favourate  latest movies, and some information about it like date of releasing and so on",
         technology: "ReactJS, javaScript, Api, CSS",
-      source: "https://github.com/CodeWithBilal/react-movie-search-app",
-      demoLink: "https://codewithbilal.github.io/react-movie-search-app/",
+      source: "https://github.com/Mwambuka/react-movie-app",
+     // demoLink: "https://codewithbilal.github.io/react-movie-search-app/",
     },
     {
       id:"07",
@@ -62,8 +62,8 @@ const myProjects = [
       description:
         " It is an e-Commance picture gallery even though is a Frontend application I added some functionallity that helps user to add his favourate fix on his card in simple way, built with React.js and React-Router using unsplash API",
         technology: "ReactJS, javaScript, Api, CSS",
-      source: "https://github.com/CodeWithBilal/picsome",
-      demoLink: "https://CodeWithBilal.github.io/picsome/",
+      source: "https://github.com/Mwambuka/react-picsome",
+     // demoLink: "https://CodeWithBilal.github.io/picsome/",
     },
     {
       id:"08",
@@ -72,8 +72,8 @@ const myProjects = [
       description:
         "Robo Friends is a mini application that helps you to find Robots of you choice I created and design it using React.js, during my Fullstack Course on Udemy I used Rorotic APi styled with tachyons predefined CSS",
         technology: "ReactJS, javaScript, Api, tachyons CSS",
-      source: "https://github.com/CodeWithBilal/robofriends",
-      demoLink: "https://codewithbilal.github.io/robofriends/",
+      source: "https://github.com/Mwambuka/robofriends",
+    // demoLink: "https://codewithbilal.github.io/robofriends/",
     },
     {
       id:"09",
@@ -82,8 +82,8 @@ const myProjects = [
       description:
         "This is a Scenic Beauties Vacation Forest Web site that helps strengers to experience the beauty of the forest for travelers built with HTMl, CSS and JavaScript.",
         technology: "javaScript, Api, CSS, HTML5",
-      source: "https://github.com/CodeWithBilal/scenic-forest",
-      demoLink: "https://scenicforestsite.netlify.app/",
+      source: "https://github.com/Mwambuka/scenic-forest",
+    //  demoLink: "https://scenicforestsite.netlify.app/",
     },
     {
       id:"10",
@@ -92,8 +92,8 @@ const myProjects = [
       description:
         "This is a copy of a marketing agency website that I created during my Responsive web design course on Scrimba, built using HTML5, CSS, and JavaScript.",
         technology: "JavaScript, Api, CSS, HTML5",
-      source: "https://github.com/CodeWithBilal/jake-and-elwood",
-      demoLink: "https://jakeandelwoodsite.netlify.app/",
+      source: "https://github.com/Mwambuka/marketing-website",
+   //   demoLink: "https://jakeandelwoodsite.netlify.app/",
     },
     {
       id:"11",
@@ -102,8 +102,8 @@ const myProjects = [
       description:
         "This is a small weather application, that allow user to search and find the condition of his specific search area with alot of information about the weather, built using weather API.",
         technology: "JavaScript, React, Api, Tailwind css",
-      source: "https://github.com/CodeWithBilal/weather-app",
-      demoLink: "https://weatherapp-bilal.netlify.app/",
+      source: "https://github.com/Mwambuka/weather-application",
+   //   demoLink: "https://weatherapp-bilal.netlify.app/",
     },
     {
       id:"12",
@@ -112,8 +112,8 @@ const myProjects = [
       description:
         "this is a mini Dice games built to for my self to have fun while get tired of coding and also helpful for young kids which not only provides them with a fun option but also helps develop and enhance their Math skills by counting, adding, subtracting, multiplying a set of rolled dice values.",
         technology: "JavaScript, HTML5, CSS",
-      source: "https://github.com/CodeWithBilal/Dice-Game",
-      demoLink: "https://dicegameme.netlify.app/",
+      source: "https://github.com/Mwambuka/dicegame",
+   //   demoLink: "https://dicegameme.netlify.app/",
     },
   ];
 
