@@ -18,6 +18,14 @@ const About = () => {
                     <h2>Experince</h2>
                     <span className='line'></span>
                         <div className='experience'>
+        <div className='experience'>
+                            <h3>Software Engineer</h3>
+                            <p> I am a Software Engineer at EDYGRAD One Private Limited
+I play a crucial role In the entire software development lifecycle, from conceptualization
+and design to implementation, testing, and maintenance, contributing to the creation of
+functional, reliable, and secure software applications.</p>
+                        
+                         </div>
                             <h3>Software Developer</h3>
                             <p>I was a Software Developer at an organization called ARDHO Rwanda, from February 2018 to October 2021. I designed, developed, maintained and tested computer software at the firm.</p>
                         
