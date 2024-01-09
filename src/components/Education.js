@@ -9,13 +9,13 @@ const Education = () => {
                    <div className='education'>
                         <h2>Education</h2>
                         <div className='edu-container'>
-                            <h3>Bachelor's Degree in Computer Applications</h3>
+                            <h3>BACHELOR’S DEGREE, COMPUTER APPLICATIONS</h3>
                             <p>Gandhi Institute of Technology and Management University, India</p>
                             <p>CGPA: 8.11/10</p>
                             <p>2020-2023</p>
                         </div>
                         <div className='edu-container'>
-                            <h3>High School Diploma</h3>
+                            <h3>HIGH SCHOOL, MATHEMATICS-PHYSICS-COMPUTER SCIENCE</h3>
                             <p>Lycée de Kigali, Rwanda</p>
                             <p>2012-2018</p>
                         </div>
