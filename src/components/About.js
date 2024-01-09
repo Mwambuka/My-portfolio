@@ -8,7 +8,7 @@ const About = () => {
                 <div className='col-2'>
                     <h2>About</h2>
                    <div className='about-me'>
-                        <p>Product-focused, forward-looking software Engineer with 3+ years of professional work experience.</p>
+                        <p>Product-focused, forward-looking software Engineer with 5+ years of professional work experience.</p>
                         <p>Highly experienced in all aspects of the software development life cycle and end-to-end project management, from the concept through to development and delivery.</p>
                         <p>Consistently recognized as a hands-on and competent leader, skilled at coordinating cross-functional teams in a fast-paced, deadline-driven environment to steer timely project completion within budgetary constraints.</p>
                         <p></p>
@@ -19,15 +19,12 @@ const About = () => {
                     <span className='line'></span>
                         <div className='experience'>
         <div className='experience'>
-                            <h3>Software Engineer</h3>
-                            <p> I am a Software Engineer at EDYGRAD One Private Limited
-I play a crucial role In the entire software development lifecycle, from conceptualization
-and design to implementation, testing, and maintenance, contributing to the creation of
-functional, reliable, and secure software applications.</p>
+                            <h3>ICT Support Officer</h3>
+                            <p> I provide first-line technical support to end-users for hardware, software, and network-related issues at The National Agricultural Export Development Board. I monitor backup and recovery processes to safeguard data.</p>
                         
                          </div>
                             <h3>Software Developer</h3>
-                            <p>I was a Software Developer at an organization called ARDHO Rwanda, from February 2018 to October 2021. I designed, developed, maintained and tested computer software at the firm.</p>
+                            <p>I was a Software Developer at an organization called ARDHO Rwanda, from February 2018 to January 2024. I designed, developed, maintained and tested computer software at the organisation.</p>
                         
                          </div>
                         <div className='experience'>
