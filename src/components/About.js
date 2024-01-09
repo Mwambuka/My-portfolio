@@ -15,16 +15,16 @@ const About = () => {
                    </div>
                 </div>
                 <div className='col-2'>
-                    <h2>Experince</h2>
+                    <h2>Experience</h2>
                     <span className='line'></span>
                         <div className='experience'>
         <div className='experience'>
-                            <h3>ICT Support Officer</h3>
-                            <p> I provide first-line technical support to end-users for hardware, software, and network-related issues at The National Agricultural Export Development Board. I monitor backup and recovery processes to safeguard data.</p>
+                            <h3>ICT Support Officer, The National Agricultural Export Development Board</h3>
+                            <p>I provide first-line technical support to end-users for hardware, software, and network-related issues. I monitor backup and recovery processes to safeguard data.</p>
                         
                          </div>
-                            <h3>Software Developer</h3>
-                            <p>I was a Software Developer at an organization called ARDHO Rwanda, from February 2018 to January 2024. I designed, developed, maintained and tested computer software at the organisation.</p>
+                            <h3>Software Developer, Association Rwandaise pour la Défense des Droits de l'Homme (ARDHO)</h3>
+                            <p>My role included analyzing and modifying existing software as well as designing, constructing and testing end-user applications that meet user needs at ARDHO (From February 2018 - January 2024).</p>
                         
                          </div>
                         <div className='experience'>
