@@ -27,12 +27,7 @@ const About = () => {
                             <p>My role included analyzing and modifying existing software as well as designing, constructing and testing end-user applications that meet user needs at ARDHO (From February 2018 - January 2024).</p>
                         
                          </div>
-                        <div className='experience'>
-                            <h3>React Developer</h3>
-                            <p>Using ReactJs and Tailwin Css, Add more functionality to the website like login and registration validation before sending data to the backend, teachers and students dashboard, assignment parts, calendar, and many more functionalities.</p>
-                           
-                        </div>
-                        
+                
                 </div>
             </div>
         </div>
