@@ -19,7 +19,7 @@ const About = () => {
                     <span className='line'></span>
                         <div className='experience'>
         <div className='experience'>
-                            <h3>ICT Support Officer, The National Agricultural Export Development Board</h3>
+                            <h3>ICT Support Officer, The National Agricultural Export Development Board (NAEB)</h3>
                             <p>I provide first-line technical support to end-users for hardware, software, and network-related issues. I monitor backup and recovery processes to safeguard data.</p>
                         
                          </div>
