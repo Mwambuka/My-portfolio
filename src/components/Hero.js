@@ -10,7 +10,7 @@ const Hero = () => {
             <div className='content'>
                 <div className='hero-image'>
                     <Link to="#" className=''>
-                        <img className="image" src={Bertin} alt=""/>
+                        <img className="image" src={cvpic} alt=""/>
                     </Link>
                 </div>
                 <h2>Bertin Mwambuka</h2>
