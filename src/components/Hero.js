@@ -1,5 +1,5 @@
 import React from 'react'
-import Bertin from './images/Bertin.jpg'
+import Bertin from './images/cvpic.jpg'
 import { Link } from 'react-router-dom'
 import {FaGithub, FaLinkedin, FaTwitterSquare, FaInstagram, FaCodepen, FaFacebookF, FaNpm} from 'react-icons/fa'
 import './Hero.css'
@@ -10,7 +10,7 @@ const Hero = () => {
             <div className='content'>
                 <div className='hero-image'>
                     <Link to="#" className=''>
-                        <img className="image" src={cvpic} alt=""/>
+                        <img className="image" src={Bertin} alt=""/>
                     </Link>
                 </div>
                 <h2>Bertin Mwambuka</h2>
