@@ -8,10 +8,7 @@ const About = () => {
                 <div className='col-2'>
                     <h2>About</h2>
                    <div className='about-me'>
-                        <p>Product-focused, forward-looking software Engineer with 5+ years of professional work experience.</p>
-                        <p>Highly experienced in all aspects of the software development life cycle and end-to-end project management, from the concept through to development and delivery.</p>
-                        <p>Consistently recognized as a hands-on and competent leader, skilled at coordinating cross-functional teams in a fast-paced, deadline-driven environment to steer timely project completion within budgetary constraints.</p>
-                        <p></p>
+                        <p>I am an IT and cyber security consultant based in Kigali, Rwanda. I enjoy learning about the latest threats to computer security.</p>
                    </div>
                 </div>
                 <div className='col-2'>
@@ -20,11 +17,17 @@ const About = () => {
                         <div className='experience'>
         <div className='experience'>
                             <h3>ICT Support Officer, The National Agricultural Export Development Board (NAEB)</h3>
-                            <p>I provide first-line technical support to end-users for hardware, software, and network-related issues. I monitor backup and recovery processes to safeguard data.</p>
+                            <p>Provided first-line technical support to over 100 end-users, resolving network, hardware, and software-related issues, improving overall IT efficiency. • Strengthened NAEB’s network security by implementing robust
+protocols and monitoring access controls.
+• Safeguarded critical data against unauthorized access, ensuring
+confidentiality and integrity</p>
                         
                          </div>
                             <h3>Software Developer, Association Rwandaise pour la Défense des Droits de l'Homme (ARDHO)</h3>
-                            <p>My role included analyzing and modifying existing software as well as designing, constructing and testing end-user applications that meet user needs at ARDHO (From February 2018 - January 2024).</p>
+                            <p>• Designed, constructed, and tested user-friendly applications.
+• Ensured that the developed software met the specific needs of
+ARDHO’s users.
+• Analyzed and improved existing software systems at ARDHO.</p>
                         
                          </div>
                 
