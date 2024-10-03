@@ -9,6 +9,10 @@ const About = () => {
                     <h2>About</h2>
                    <div className='about-me'>
                         <p>I am an IT and cyber security consultant based in Kigali, Rwanda. I enjoy learning about the latest threats to computer security.</p>
+                        <p>I am a results-driven professional with expertise spanning network engineering, cloud engineering, automation, cybersecurity, and AI.</p>
+                        <p>My value lies in designing scalable, secure, and efficient IT solutions that elevate organizational performance while safeguarding data integrity and privacy.</p>
+                        <p>y. I have a proven track record in deploying highavailability infrastructure across multi-cloud environments, automating deployments, and ensuring robust infrastructure security. </p>
+    
                    </div>
                 </div>
                 <div className='col-2'>
