@@ -28,8 +28,8 @@ confidentiality and integrity</p>
                         
                          </div>
                             <h3>Cybersecurity & Perimeter Security Engineer, Association Rwandaise pour la Défense des Droits de l'Homme (ARDHO)</h3>
-                            <p>• •	Engineered and deployed perimeter security solutions across firewall, IDS/IPS, and threat intelligence platforms, strengthening enterprise cybersecurity defenses and reducing attack surface by 40%.
-• •	Designed and implemented network segmentation policies within DMZ environments, enhancing security for high-risk applications and minimizing lateral movement risks.
+                            <p>• Engineered and deployed perimeter security solutions across firewall, IDS/IPS, and threat intelligence platforms, strengthening enterprise cybersecurity defenses and reducing attack surface by 40%.
+• Designed and implemented network segmentation policies within DMZ environments, enhancing security for high-risk applications and minimizing lateral movement risks.
 </p>
                         
                          </div>
