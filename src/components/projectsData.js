@@ -2,6 +2,24 @@ const myProjects = [
     {
         id:"01",
         image: "/images/project1.png",
+        title: "End-to-End Machine Learning Pipeline for Anomaly Detection",
+        description:
+          "Developed a modular ML system that detects real-time anomalies in system logs using Random Forest and Autoencoders. Created RESTful API endpoints for inference and integrated model deployment into a Flask-based microservice. Achieved 92% precision and 87% recall on unseen log anomaly datasets. Implemented version control and CI/CD workflows with GitHub Actions.",
+        technology: "Python, scikit-learn, TensorFlow, Flask, Nginx, GitHub Actions",
+        source: "https://github.com/Mwambuka"
+      },
+    {
+        id:"02",
+        image: "/images/project2.png",
+        title: "C++ Memory Management Simulator",
+        description:
+          "Built a simulator for dynamic memory allocation in C++ mimicking malloc(), free(), and garbage collection principles. Used STL containers and smart pointers to implement custom memory pools with defragmentation logic. Instrumented extensive unit tests with memory leak tracing using Valgrind. Improved memory access speed by 25% compared to naive heap management approaches.",
+        technology: "C++, GDB, Valgrind, STL",
+        source: "https://github.com/Mwambuka"
+      },
+    {
+        id:"03",
+        image: "/images/project3.png",
         title: "Fyyar App",
         description:
           "Implemented the data models to power the API endpoints for the website by connecting to a PostgresSQL database for storing, querying, and creating information about artists and venues on the website.",
@@ -9,8 +27,8 @@ const myProjects = [
         source: "https://github.com/Mwambuka/data-models"
       },
       {
-        id:"02",
-        image: "/images/project2.png",
+        id:"04",
+        image: "/images/project4.png",
         title: "Trivia Full-Stack App",
         description:
           "Implemented CRUD operation where employees can have the ability to add, delete, Search, display the details of any question, and play quiz games, randomizing either all questions or specific",
@@ -18,8 +36,8 @@ const myProjects = [
         source: "https://github.com/Mwambuka/trivia-api-app"
       },
       {
-        id:"03",
-        image: "/images/project3.png",
+        id:"05",
+        image: "/images/project5.PNG",
         title: "Coffee Shop full Stack",
         description:
           "Created a Full-stack drink menu application that can allow users only to get all the drink coffee that is available, while the manager can add, edit, and delete the drink coffee. Implemented using AuthO to give them permission.",
@@ -27,7 +45,7 @@ const myProjects = [
         source: "https://github.com/Mwambuka/coffee-shop-app"
       },
       {
-        id:"04",
+        id:"06",
         image: "/images/project4.png",
         title: "Deploying a Flask API",
         description:
@@ -36,8 +54,8 @@ const myProjects = [
         source: "https://github.com/Mwambuka/deploying-flask",
       },
     {
-      id:"05",
-      image: "/images/project5.png",
+      id:"07",
+      image: "/images/project5.PNG",
       title: "Punk API Beer App",
       description:
         " A simple Bear App built with JavaScript using Punk API, It also show you if the Beer is available or not, I style it using normal styling though it looks like simple but amazing when going through it",
@@ -46,8 +64,8 @@ const myProjects = [
       demoLink: "https://punkbeerapp.netlify.app/",
     },
     {
-      id:"06",
-      image: "/images/project6.png",
+      id:"08",
+      image: "/images/project6.PNG",
       title: "Movies Search App",
       description:
         "It is a simple application named Movies App, built with Ract.js using TMDb API that will helps you to find your favourate  latest movies, and some information about it like date of releasing and so on",
@@ -56,8 +74,8 @@ const myProjects = [
       demoLink: "https://codewithbilal.github.io/react-movie-search-app/",
     },
     {
-      id:"07",
-      image: "/images/project7.png",
+      id:"09",
+      image: "/images/project7.PNG",
       title: "PicSome",
       description:
         " It is an e-Commance picture gallery even though is a Frontend application I added some functionallity that helps user to add his favourate fix on his card in simple way, built with React.js and React-Router using unsplash API",
@@ -66,8 +84,8 @@ const myProjects = [
      // demoLink: "https://CodeWithBilal.github.io/picsome/",
     },
     {
-      id:"08",
-      image: "/images/project8.png",
+      id:"10",
+      image: "/images/project8.PNG",
       title: "Robo Friends",
       description:
         "Robo Friends is a mini application that helps you to find Robots of you choice I created and design it using React.js, during my Fullstack Course on Udemy I used Rorotic APi styled with tachyons predefined CSS",
@@ -76,8 +94,8 @@ const myProjects = [
     // demoLink: "https://codewithbilal.github.io/robofriends/",
     },
     {
-      id:"09",
-      image: "/images/project9.png",
+      id:"11",
+      image: "/images/project9.PNG",
       title: "Scenic Forest",
       description:
         "This is a Scenic Beauties Vacation Forest Web site that helps strengers to experience the beauty of the forest for travelers built with HTMl, CSS and JavaScript.",
@@ -86,8 +104,8 @@ const myProjects = [
     //  demoLink: "https://scenicforestsite.netlify.app/",
     },
     {
-      id:"10",
-      image: "/images/project10.png",
+      id:"12",
+      image: "/images/project10.PNG",
       title: "Jake and Elwood",
       description:
         "This is a copy of a marketing agency website that I created during my Responsive web design course on Scrimba, built using HTML5, CSS, and JavaScript.",
@@ -96,7 +114,7 @@ const myProjects = [
    //   demoLink: "https://jakeandelwoodsite.netlify.app/",
     },
     {
-      id:"11",
+      id:"13",
       image: "/images/project11.png",
       title: "Weather App",
       description:
@@ -106,7 +124,7 @@ const myProjects = [
    //   demoLink: "https://weatherapp-bilal.netlify.app/",
     },
     {
-      id:"12",
+      id:"14",
       image: "/images/project12.png",
       title: "Dice Game",
       description:

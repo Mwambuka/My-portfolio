@@ -1,7 +1,7 @@
 import React from 'react';
-import { SiTailwindcss, SiFlask, SiSpring, SiPostgresql, SiDocker, SiAmazonaws, SiKubernetes, SiMongodb, SiExpress, SiMysql, SiRedux, SiCplusplus, SiHtml5, SiTableau, SiMaterialui } from 'react-icons/si'
+import { SiTailwindcss, SiFlask, SiSpring, SiPostgresql, SiDocker, SiAmazonaws, SiKubernetes, SiMongodb, SiExpress, SiMysql, SiRedux, SiCplusplus, SiHtml5, SiTableau, SiMaterialui, SiTypescript, SiFastapi, SiTensorflow, SiAngular, SiNginx, SiRedis, SiElasticsearch, SiGrafana } from 'react-icons/si'
 import { IoLogoJavascript  } from 'react-icons/io'
-import { FaJava, FaNode,FaGithub, FaPython, FaBootstrap, FaReact, FaCss3Alt, FaRProject, FaPhp } from 'react-icons/fa'
+import { FaJava, FaNode, FaGithub, FaPython, FaBootstrap, FaReact, FaCss3Alt, FaRProject, FaPhp } from 'react-icons/fa'
 import { DiGit, DiDjango } from 'react-icons/di'
 import './Skills.css'
 
@@ -23,10 +23,16 @@ const Skills = () => {
                         <IoLogoJavascript />
                     </span>
                     <span className="skill">
+                        <SiTypescript />
+                    </span>
+                    <span className="skill">
                         <SiTailwindcss />
                     </span>
                     <span className="skill">
                         <FaReact />
+                    </span>
+                    <span className="skill">
+                        <SiAngular />
                     </span>
                     <span className="skill">
                         <FaNode />
@@ -56,6 +62,9 @@ const Skills = () => {
                         <SiFlask />
                     </span>
                     <span className="skill">
+                        <SiFastapi />
+                    </span>
+                    <span className="skill">
                         <SiSpring />
                     </span>
                     <span className="skill">
@@ -74,7 +83,13 @@ const Skills = () => {
                         <SiKubernetes />
                     </span>
                     <span className="skill">
+                        <SiNginx />
+                    </span>
+                    <span className="skill">
                         <SiMongodb />
+                    </span>
+                    <span className="skill">
+                        <SiRedis />
                     </span>
                     <span className="skill">
                         <SiExpress />
@@ -93,6 +108,15 @@ const Skills = () => {
                     </span>
                     <span className="skill">
                         <SiMaterialui />
+                    </span>
+                    <span className="skill">
+                        <SiTensorflow />
+                    </span>
+                    <span className="skill">
+                        <SiElasticsearch />
+                    </span>
+                    <span className="skill">
+                        <SiGrafana />
                     </span>
                 </div>
             </div>
