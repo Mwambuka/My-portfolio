@@ -32,8 +32,6 @@ const About = () => {
                         <p>• Safeguarded critical data against unauthorized access, ensuring confidentiality and integrity.</p>
                     </div>
                 </div>
-                
-                </div>
             </div>
         </div>
     )
