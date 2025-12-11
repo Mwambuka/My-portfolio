@@ -1,0 +1,151 @@
+
+.about {
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+    margin: auto;
+    padding: 6rem 1rem;
+    width: 100%;
+    position: relative;
+}
+
+.about .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    padding: 2rem;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    position: relative;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    color: var(--text-primary);
+}
+
+.about h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    height: 4px;
+    background: var(--gradient-primary);
+    border-radius: 2px;
+}
+
+.about .col-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: var(--shadow-md);
+    transition: all 0.3s ease;
+}
+
+.about .col-2:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+.about-me {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: var(--text-secondary);
+}
+
+.about-me p {
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+.about-me p:last-child {
+    margin-bottom: 0;
+}
+
+.experience {
+    margin: 1.5rem 0;
+    padding: 1.5rem;
+    background: linear-gradient(135deg, rgba(91, 180, 98, 0.05) 0%, rgba(125, 216, 122, 0.05) 100%);
+    border-radius: 12px;
+    border-left: 4px solid var(--primary-color);
+    transition: all 0.3s ease;
+}
+
+.experience:hover {
+    transform: translateX(5px);
+    box-shadow: var(--shadow-sm);
+}
+
+.experience h3 {
+    font-size: 1.1rem;
+    color: var(--text-primary);
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+}
+
+.experience p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: var(--text-secondary);
+    margin: 0;
+}
+
+.line {
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: var(--gradient-primary);
+    margin: 1rem 0 2rem 0;
+    border-radius: 2px;
+}
+
+.experience span{
+    font-size: 0.9em;
+    text-align: right;
+    display: block;
+    font-size: bolder;
+}
+/* .about .col-2 p:first-of-type {
+    margin: 2rem 0;
+}
+
+.about .col-2 p:nth-child(4) {
+    font-size: 1.8rem;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.about button {
+    margin-top: 1rem;
+} */
+
+@media screen and (max-width:940px) {
+    .about {
+        padding: 4rem 1rem;
+    }
+
+    .about .container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 1rem;
+    }
+
+    .about .col-2 {
+        padding: 1.5rem;
+    }
+
+    .about h2 {
+        font-size: 2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
