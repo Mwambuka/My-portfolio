@@ -11,14 +11,14 @@ const Navbar = () => {
 
     // change color while scrolling
     useEffect(() => {
-        const changeColor = () => {
-            if(window.scrollY >= 90){
-                setColor(true)
-            }else{
-                setColor(false)
-            }
+    const changeColor = () => {
+        if(window.scrollY >= 90){
+            setColor(true)
+        }else{
+            setColor(false)
         }
-        window.addEventListener('scroll', changeColor)
+    }
+    window.addEventListener('scroll', changeColor)
         return () => window.removeEventListener('scroll', changeColor)
     }, [])
 
