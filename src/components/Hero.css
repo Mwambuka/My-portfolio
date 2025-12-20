@@ -34,7 +34,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto 1.5rem auto;
+    margin: 0 auto 2.5rem auto;
     width: 100%;
     position: relative;
   }
@@ -155,7 +155,7 @@
 .hero .content h2 {
     font-size: 3.5rem;
     font-weight: 700;
-    margin: 1rem 0;
+    margin: 0 0 0.5rem 0;
     color: #fff;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
     animation: fadeInUp 1s ease-out 0.2s both;
@@ -164,10 +164,11 @@
 .hero .content h3 {
     font-size: 1.8rem;
     font-weight: 400;
-    margin-bottom: 2rem;
+    margin: 0 0 2rem 0;
     color: var(--primary-light);
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
     animation: fadeInUp 1s ease-out 0.4s both;
+    line-height: 1.4;
 }
 
 .btn-container{
