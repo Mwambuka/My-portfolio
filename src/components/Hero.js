@@ -14,7 +14,7 @@ const Hero = () => {
                     </Link>
                 </div>
                 <h2>Bertin Mwambuka</h2>
-                <h3>Security Engineer & IT Consultant</h3>
+                <h3>Cloud & DevOps Engineer | Security Engineer | Youth Leadership & Impact</h3>
                 <div className='btn-container'>
                     <a href='#contact' className='btn btn-hire'>Get In Touch</a>
                     <a href='https://drive.google.com/file/d/1QUot2Se5C-Nv-MQrCuTbSqr9L_w_w1kB/view?usp=sharing' target="_blank" rel="noopener noreferrer" className='btn btn-resume'>View Resume</a>
