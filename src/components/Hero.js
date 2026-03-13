@@ -23,7 +23,7 @@ const Hero = () => {
                     <a href="https://github.com/Mwambuka" target="_blank" rel="noopener noreferrer" className='icons' aria-label="GitHub">
                         <FaGithub  className='icon'/>
                     </a>
-                    <a href='https://www.linkedin.com/in/bertin-mwambuka-9a645b201/' target="_blank" rel="noopener noreferrer" className='icons' aria-label="LinkedIn">
+                    <a href='https://www.linkedin.com/in/bertinmwambuka/' target="_blank" rel="noopener noreferrer" className='icons' aria-label="LinkedIn">
                         <FaLinkedin className='icon' />
                     </a>
                     <a href="https://twitter.com/bertinmwambuka" target="_blank" rel="noopener noreferrer" className='icons' aria-label="Twitter">
