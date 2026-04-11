@@ -6,28 +6,40 @@ const Projects = () => {
     return (
         <div className='projects' id='projects'>
             <div className='container'>
-                <h2>Projects</h2>
-                <div className='content' >
-                {projectsData.map((data, index) => {
-                    return(
+                <div className='projects-header'>
+                    <span className='section-label'>What I've Built</span>
+                    <h2 className='section-title section-title-center'>Projects</h2>
+                </div>
+
+                <div className='projects-grid'>
+                    {projectsData.map((data, index) => (
                         <div className='project-card' key={index}>
                             <div className='img-section'>
-                                <img src={data.image} alt={data.title}/>
+                                <img src={data.image} alt={data.title} />
                             </div>
+
                             <div className='project-info'>
-                                <h5 className="project-title">{data.title}</h5>
+                                <h5 className='project-title'>{data.title}</h5>
                                 <p className='desc-section'>{data.description}</p>
-                                <h3>Technology :</h3> <span>{data.technology}</span>
+                                <div className='tech-tags'>
+                                    {data.technology.split(',').map((tech, i) => (
+                                        <span className='tech-tag' key={i}>{tech.trim()}</span>
+                                    ))}
+                                </div>
                             </div>
+
                             <div className='links'>
-                                <a href={data.source} target="_blank" rel="noopener noreferrer">GitHub</a>
+                                <a href={data.source} target='_blank' rel='noopener noreferrer'>
+                                    GitHub ↗
+                                </a>
                                 {data.demoLink && (
-                                    <a href={data.demoLink} target="_blank" rel="noopener noreferrer">Live Demo</a>
+                                    <a href={data.demoLink} target='_blank' rel='noopener noreferrer' className='demo-link'>
+                                        Live Demo ↗
+                                    </a>
                                 )}
                             </div>
                         </div>
-                    )
-                })}
+                    ))}
                 </div>
             </div>
         </div>
