@@ -1,0 +1,155 @@
+.edu-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 1rem 0 0 0;
+}
+
+.edu-container ul li {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+    position: relative;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+.edu-container ul li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.edu-container ul li i {
+    color: var(--text-light);
+    font-size: 0.85rem;
+    font-style: italic;
+}
+.edu-wrapper {
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+    padding: 6rem 1rem;
+    width: 100%;
+}
+
+.edu-wrapper .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: var(--shadow-lg);
+    padding: 3rem;
+}
+
+.edu-wrapper .col-2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.education {
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.education:last-child {
+    margin-bottom: 0;
+}
+
+.education h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0 0 2rem 0;
+    color: var(--text-primary);
+    position: relative;
+    padding-bottom: 1rem;
+}
+
+.education h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background: var(--gradient-primary);
+    border-radius: 2px;
+}
+
+.edu-container {
+    width: 100%;
+    margin: 1.5rem 0;
+    border-radius: 12px;
+    padding: 2rem;
+    background: linear-gradient(135deg, rgba(91, 180, 98, 0.05) 0%, rgba(125, 216, 122, 0.05) 100%);
+    border-left: 4px solid var(--primary-color);
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow-sm);
+}
+
+.edu-container:hover {
+    transform: translateX(5px);
+    box-shadow: var(--shadow-md);
+}
+
+.edu-container h3 {
+    font-size: 1.2rem;
+    color: var(--text-primary);
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+}
+
+.edu-container p {
+    color: var(--text-secondary);
+    margin: 0.5rem 0;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.about-me{
+    font-size: 0.9em;
+    line-height: normal;
+}
+.experience,
+.about-me{
+    margin: 0.2em 0;
+    padding: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.experience h3{
+    font-size: 0.9em;
+}
+.experience p{
+    font-size: 0.9em;
+    line-height: normal;
+}
+
+.experience span{
+    font-size: 0.9em;
+    text-align: right;
+    display: block;
+    font-size: bolder;
+}
+
+@media screen and (max-width:940px) {
+    .edu-wrapper {
+        padding: 4rem 1rem;
+    }
+
+    .edu-wrapper .container {
+        padding: 2rem 1.5rem;
+    }
+
+    .education h2 {
+        font-size: 2rem;
+    }
+
+    .edu-container {
+        padding: 1.5rem;
+    }
+}
