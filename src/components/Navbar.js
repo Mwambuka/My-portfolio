@@ -39,7 +39,7 @@ const Navbar = () => {
                     <li className='nav-item'><a href='#contact' onClick={closeMenu}>Contact</a></li>
                     <li className='nav-item'>
                         <a
-                            href='https://drive.google.com/file/d/1QUot2Se5C-Nv-MQrCuTbSqr9L_w_w1kB/view?usp=sharing'
+                            href='https://drive.google.com/file/d/1mnV4K0AtEeyqJUixDm7pW42QvBs8vQBv/view?usp=sharing'
                             target="_blank"
                             rel="noopener noreferrer"
                             className='nav-resume-btn'
