@@ -1,33 +1,50 @@
 import React from 'react'
-import Bertin from './images/cvpic.jpg'
+import Bertin from './images/Photo.jpg'
 import { Link } from 'react-router-dom'
-import {FaGithub, FaLinkedin, FaTwitterSquare, FaInstagram, FaFacebookF} from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaTwitterSquare, FaInstagram, FaFacebookF } from 'react-icons/fa'
 import './Hero.css'
 
 const Hero = () => {
     return (
         <div className='hero' id='hero'>
             <div className='content'>
+                <div className='hero-badge'>
+                    <span className='hero-badge-dot'></span>
+                    Open to opportunities
+                </div>
+
                 <div className='hero-image'>
-                    <Link to="#" className=''>
-                        <img className="image" src={Bertin} alt="Bertin Mwambuka"/>
+                    <Link to="#" aria-label="Bertin Mwambuka">
+                        <img className="image" src={Bertin} alt="Bertin Mwambuka" />
                     </Link>
                 </div>
+
                 <h2>Bertin Mwambuka</h2>
-                <h3>Cloud & DevOps Engineer | Security Engineer | Youth Leadership & Impact</h3>
+                <h3>
+                    <span>Software Engineer</span> · Cloud Enthusiast · Security Nerd · Good Person to Know
+                </h3>
+
                 <div className='btn-container'>
                     <a href='#contact' className='btn btn-hire'>Get In Touch</a>
-                    <a href='https://drive.google.com/file/d/1QUot2Se5C-Nv-MQrCuTbSqr9L_w_w1kB/view?usp=sharing' target="_blank" rel="noopener noreferrer" className='btn btn-resume'>View Resume</a>
+                    <a
+                        href='https://drive.google.com/file/d/1QUot2Se5C-Nv-MQrCuTbSqr9L_w_w1kB/view?usp=sharing'
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className='btn btn-resume'
+                    >
+                        View Resume ↗
+                    </a>
                 </div>
+
                 <div className='social-medias'>
                     <a href="https://github.com/Mwambuka" target="_blank" rel="noopener noreferrer" className='icons' aria-label="GitHub">
-                        <FaGithub  className='icon'/>
+                        <FaGithub className='icon' />
                     </a>
                     <a href='https://www.linkedin.com/in/bertinmwambuka/' target="_blank" rel="noopener noreferrer" className='icons' aria-label="LinkedIn">
                         <FaLinkedin className='icon' />
                     </a>
                     <a href="https://twitter.com/bertinmwambuka" target="_blank" rel="noopener noreferrer" className='icons' aria-label="Twitter">
-                        <FaTwitterSquare  className='icon'/>
+                        <FaTwitterSquare className='icon' />
                     </a>
                     <a href="https://www.instagram.com/bertinmwambuka/" target="_blank" rel="noopener noreferrer" className='icons' aria-label="Instagram">
                         <FaInstagram className='icon' />
@@ -37,6 +54,11 @@ const Hero = () => {
                     </a>
                 </div>
             </div>
+
+            <a href='#about' className='scroll-indicator' aria-label="Scroll down">
+                <div className='scroll-line'></div>
+                <span>Scroll</span>
+            </a>
         </div>
     )
 }

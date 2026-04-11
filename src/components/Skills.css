@@ -1,120 +1,101 @@
-
 .skills-section {
-    width: 100%;
-    padding: 6rem 1rem;
-    background: var(--bg-primary);
+  width: 100%;
+  padding: 7rem 1.5rem;
+  background: var(--bg-primary);
 }
 
-.skills-section .heading-section {
-    max-width: 1200px;
-    margin: 0 auto 3rem auto;
-    text-align: center;
+.skills-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.skills-text {
-    font-size: 2.5rem;
-    color: var(--text-primary);
-    position: relative;
-    padding-bottom: 1rem;
-    display: inline-block;
+.skills-header {
+  text-align: center;
+  margin-bottom: 3.5rem;
 }
 
-.skills-text::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 80px;
-    height: 4px;
-    background: var(--gradient-primary);
-    border-radius: 2px;
+/* ── Category block ─────────────────────────── */
+.skills-category {
+  margin-bottom: 3rem;
 }
 
-.skills {
-    width: 100%;
-    margin: 0 auto;
-    max-width: 1200px;
-    padding: 3rem 2rem;
-    text-align: center;
-    background: #fff;
-    border-radius: 20px;
-    box-shadow: var(--shadow-lg);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-  }
-
-  .skill {
-    font-size: 4rem;
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
-    color: var(--text-secondary);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
-    border-radius: 12px;
-    background: var(--bg-secondary);
-    width: 100px;
-    height: 100px;
-    position: relative;
-    overflow: hidden;
+.skills-category:last-child {
+  margin-bottom: 0;
 }
 
-.skill::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: var(--gradient-primary);
-    opacity: 0;
-    transition: all 0.3s ease;
-    z-index: 0;
+.skills-category-title {
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-light);
+  margin-bottom: 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
 }
 
-.skill:hover::before,
-.skill:focus::before {
-    left: 0;
-    opacity: 0.1;
+.skills-category-title::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--border-color);
 }
 
-.skill > * {
-    position: relative;
-    z-index: 1;
-    transition: all 0.3s ease;
+/* ── Skills grid ────────────────────────────── */
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
 }
 
-  .skill:hover,
-  .skill:focus {
-    color: var(--primary-color);
-    transform: translateY(-8px) scale(1.1);
-    box-shadow: 0 8px 20px rgba(91, 180, 98, 0.3);
-    background: linear-gradient(135deg, rgba(91, 180, 98, 0.1) 0%, rgba(125, 216, 122, 0.1) 100%);
-  }
+/* ── Skill chip ─────────────────────────────── */
+.skill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.55rem 1.1rem;
+  background: var(--bg-secondary);
+  border: 1.5px solid var(--border-color);
+  border-radius: var(--radius-full);
+  transition: var(--transition);
+  cursor: default;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  white-space: nowrap;
+}
+
+.skill-icon {
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  transition: var(--transition);
+}
+
+.skill-name {
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.skill:hover {
+  color: var(--primary-dark);
+  background: rgba(91, 180, 98, 0.08);
+  border-color: rgba(91, 180, 98, 0.4);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(91, 180, 98, 0.18);
+}
+
+.skill:hover .skill-icon {
+  color: var(--primary-color);
+}
 
 @media screen and (max-width: 768px) {
-    .skills-section {
-        padding: 4rem 1rem;
-    }
+  .skills-section { padding: 5rem 1.25rem; }
 
-    .skills-text {
-        font-size: 2rem;
-    }
+  .skills-grid { gap: 0.6rem; }
 
-    .skills {
-        padding: 2rem 1rem;
-        gap: 1rem;
-    }
-
-    .skill {
-        font-size: 3rem;
-        width: 80px;
-        height: 80px;
-        padding: 0.75rem;
-    }
-  }
+  .skill { padding: 0.5rem 0.9rem; }
+}

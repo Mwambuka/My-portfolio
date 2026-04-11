@@ -133,6 +133,42 @@ const myProjects = [
       source: "https://github.com/Mwambuka/dicegame",
    //   demoLink: "https://dicegameme.netlify.app/",
     },
+    {
+      id:"15",
+      image: "/images/project1.png",
+      title: "RCAA Predictive Maintenance",
+      description:
+        "Predictive maintenance system leveraging machine learning to anticipate equipment failures and reduce downtime.",
+        technology: "Python, Machine Learning, Predictive Analytics",
+      source: "https://github.com/Mwambuka/rcaa-predictive-maintenance-bertin",
+    },
+    {
+      id:"16",
+      image: "/images/project2.png",
+      title: "A2SV Eskalate News API",
+      description:
+        "A RESTful news API built as part of the A2SV Eskalate program, enabling structured access to news data.",
+        technology: "Python, REST API, Backend Development",
+      source: "https://github.com/Mwambuka/a2sv-eskalate-news-api",
+    },
+    {
+      id:"17",
+      image: "/images/project3.png",
+      title: "WHO GHO ETL Pipeline",
+      description:
+        "An ETL pipeline that extracts, transforms, and loads data from the WHO Global Health Observatory (GHO) for analysis and reporting.",
+        technology: "Python, ETL, Data Engineering, WHO GHO API",
+      source: "https://github.com/Mwambuka/who-gho-etl-pipeline",
+    },
+    {
+      id:"18",
+      image: "/images/project4.png",
+      title: "Mizero AgriTech",
+      description:
+        "An agri-tech platform designed to support farmers with data-driven insights and tools to improve agricultural productivity.",
+        technology: "Web Development, AgriTech, Data",
+      source: "https://github.com/Mwambuka/mizeroagritech",
+    },
   ];
 
   export default myProjects;

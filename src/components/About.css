@@ -1,151 +1,173 @@
-
 .about {
-    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
-    margin: auto;
-    padding: 6rem 1rem;
-    width: 100%;
-    position: relative;
+  background: var(--bg-secondary);
+  padding: 7rem 1.5rem;
+  width: 100%;
 }
 
 .about .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 3rem;
-    padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 4rem;
+  align-items: start;
 }
 
-.about h2 {
-    font-size: 2.5rem;
-    position: relative;
-    padding-bottom: 1rem;
-    margin-bottom: 2rem;
-    color: var(--text-primary);
+/* ── Section header ─────────────────────────── */
+.about-header {
+  margin-bottom: 2rem;
 }
 
-.about h2::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 80px;
-    height: 4px;
-    background: var(--gradient-primary);
-    border-radius: 2px;
-}
-
-.about .col-2 {
-    display: flex;
-    flex-direction: column;
-    padding: 2.5rem;
-    background: #fff;
-    border-radius: 16px;
-    box-shadow: var(--shadow-md);
-    transition: all 0.3s ease;
-}
-
-.about .col-2:hover {
-    transform: translateY(-5px);
-    box-shadow: var(--shadow-lg);
-}
-.about-me {
-    font-size: 1rem;
-    line-height: 1.8;
-    color: var(--text-secondary);
+/* ── About bio ──────────────────────────────── */
+.about-bio-card {
+  background: var(--bg-primary);
+  border-radius: var(--radius-xl);
+  padding: 2.5rem;
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--border-color);
+  position: sticky;
+  top: 96px;
 }
 
 .about-me p {
-    margin-bottom: 1.5rem;
-    text-align: justify;
+  font-size: 0.97rem;
+  line-height: 1.85;
+  color: var(--text-secondary);
+  margin-bottom: 1.25rem;
 }
 
-.about-me p:last-child {
-    margin-bottom: 0;
+.about-me p:last-child { margin-bottom: 0; }
+
+/* ── Experience column ──────────────────────── */
+.experience-col h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  margin-bottom: 0.5rem;
 }
 
+/* ── Timeline ───────────────────────────────── */
+.timeline {
+  position: relative;
+  padding-left: 1.75rem;
+  margin-top: 2rem;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 8px;
+  bottom: 8px;
+  width: 2px;
+  background: linear-gradient(to bottom, var(--primary-color), var(--primary-light), transparent);
+  border-radius: 2px;
+}
+
+/* ── Experience card ────────────────────────── */
 .experience {
-    margin: 1.5rem 0;
-    padding: 1.5rem;
-    background: linear-gradient(135deg, rgba(91, 180, 98, 0.05) 0%, rgba(125, 216, 122, 0.05) 100%);
-    border-radius: 12px;
-    border-left: 4px solid var(--primary-color);
-    transition: all 0.3s ease;
+  position: relative;
+  margin-bottom: 2rem;
+  padding: 1.75rem;
+  background: var(--bg-primary);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+}
+
+.experience:last-child { margin-bottom: 0; }
+
+.experience::before {
+  content: '';
+  position: absolute;
+  left: -2.25rem;
+  top: 1.75rem;
+  width: 10px;
+  height: 10px;
+  background: var(--primary-color);
+  border: 3px solid var(--bg-secondary);
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px rgba(91, 180, 98, 0.25);
 }
 
 .experience:hover {
-    transform: translateX(5px);
-    box-shadow: var(--shadow-sm);
+  box-shadow: var(--shadow-lg);
+  border-color: rgba(91, 180, 98, 0.3);
+  transform: translateY(-2px);
 }
 
-.experience h3 {
-    font-size: 1.1rem;
-    color: var(--text-primary);
-    margin-bottom: 0.75rem;
-    font-weight: 600;
+.exp-meta {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.75rem;
+}
+
+.exp-role {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -0.01em;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.exp-date {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  background: rgba(91, 180, 98, 0.1);
+  color: var(--primary-dark);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--radius-full);
+  white-space: nowrap;
+  flex-shrink: 0;
+  border: 1px solid rgba(91, 180, 98, 0.2);
+}
+
+.exp-company {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
 }
 
 .experience p {
-    font-size: 0.95rem;
-    line-height: 1.7;
-    color: var(--text-secondary);
-    margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.75;
+  color: var(--text-secondary);
+  margin-bottom: 0.4rem;
 }
 
-.line {
-    display: block;
-    width: 60px;
-    height: 3px;
-    background: var(--gradient-primary);
-    margin: 1rem 0 2rem 0;
-    border-radius: 2px;
+.experience p:last-child { margin-bottom: 0; }
+
+@media screen and (max-width: 1024px) {
+  .about .container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .about-bio-card {
+    position: static;
+  }
 }
 
-.experience span{
-    font-size: 0.9em;
-    text-align: right;
-    display: block;
-    font-size: bolder;
+@media screen and (max-width: 768px) {
+  .about {
+    padding: 5rem 1.25rem;
+  }
+
+  .about-bio-card {
+    padding: 1.75rem;
+  }
+
+  .experience {
+    padding: 1.25rem;
+  }
 }
-/* .about .col-2 p:first-of-type {
-    margin: 2rem 0;
-}
-
-.about .col-2 p:nth-child(4) {
-    font-size: 1.8rem;
-    font-style: italic;
-    font-weight: 600;
-}
-
-.about button {
-    margin-top: 1rem;
-} */
-
-@media screen and (max-width:940px) {
-    .about {
-        padding: 4rem 1rem;
-    }
-
-    .about .container {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-        padding: 1rem;
-    }
-
-    .about .col-2 {
-        padding: 1.5rem;
-    }
-
-    .about h2 {
-        font-size: 2rem;
-    }
-}
-
-
-
-
-
-
-
-
-
