@@ -21,7 +21,7 @@ const Hero = () => {
 
                 <h2>Bertin Mwambuka</h2>
                 <h3>
-                    <span>Software Engineer</span> · Digital Public Infrastructure · AI & ML for Public Good · Cloud & Security
+                    <span>Software Engineer</span> · Digital Public Infrastructure · AI/ML for Public Good · Cloud & Security
                 </h3>
 
                 <div className='btn-container'>
